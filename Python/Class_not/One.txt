@@ -1,0 +1,2 @@
+Hand off tasks to AI agents that autonomously plan, make code changes, run commands, and iterate until the job is done.
+For example, assign a CLI-based agent to triage and fix bugs in the background, interact with another agent to implement a feature using live validation in the integrated browser, and delegate a homepage redesign to a cloud agent that opens a pull request for your team to review.
