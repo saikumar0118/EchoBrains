@@ -1,0 +1,24 @@
+ .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .test {
+            display: none;
+        }
+
+        .test2 {
+            display: block;
+        }
+
+        .box { 
+            display: inline;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin:
+             10px;
+            text-align: center;
+
+        }

@@ -1,0 +1,6 @@
+style sheet can be added in webpage 
+-inline 
+TASK;
+->add a heading use css to set font size:62, increase thickness of the font, set the margin to 10px
+->set the bg color to orangr, agg the padding size to 5px, heaight and width to 200px,400px
+->add a image, apply css to fix heaight and width of the image using tag selector

@@ -1,0 +1,37 @@
+/*class selection */
+.myheading
+{
+    text-align: center;
+    font-style: unset;
+    font-size: 62px;
+    font-width: bolder;
+    padding: 10px;
+    background-color: blueviolet;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px; /*it apply on 4 sides of that element */
+    border: 4px double black;
+    border-radius: 10px;
+}
+/* tag selector */
+img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+body{
+    background-image: url("img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    background-image: url("img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    background: linear-gradient(to right, blue,purple,yellow);
+    height: 100px;
+    width:300px;
+}

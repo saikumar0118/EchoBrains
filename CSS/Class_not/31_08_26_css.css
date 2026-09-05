@@ -1,0 +1,59 @@
+/* style.css(solution) */
+    .app-shell{
+        display: grid;
+        grid-template-areas:
+         "header header"
+         "sidebar main"
+         "footer footer";
+        grid-template-columns: 240px 1fr;
+        grid-template-rows: auto 1fr auto;
+        min-height: 100vh;
+    }
+
+    .header{grid-area: header; background: black; color: rgb(211, 205, 223); padding: 1.5rem;}
+    .sidebar{grid-area: sidebar; background: rgb(21, 3, 3); color: rgb(212, 209, 219); padding: 1.5rem;}
+    .main-content{grid-area: main; background: rgb(96, 33, 33); color: rgb(229, 229, 233); padding: 1.5rem;}
+    .footer{grid-area: footer; background: black; color: rgb(236, 235, 243); padding:1rem 1.5rem;}
+     
+    /*flexcard layout inner strructure*/
+    .widget-card{
+        background: rgb(77, 4, 4);
+        border: 1px salmon;
+        border-radius: 8px;
+        padding: 1.25rem; 
+        max-width:400px ;
+        box-shadow: 0 1px 3px rgba(red, green, blue, alpha);
+    }
+
+    .card-header{
+        display:flex;
+        justify-content:space-between ;
+        align-items: center;
+        margin-bottom: 0.75rem;
+    }
+    .card-header h3{
+        margin: 0;
+        font-size: 1.125rem;
+    }
+    .badge{
+        background-color: aquamarine;
+        color: blueviolet;
+        padding: 0.25rem 0.5rem;
+        border-radius: 9999px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    .card-footer{
+        display: flex;
+        justify-content:flex-end;
+        margin-top: 1rem;
+
+    }
+
+    .card-footer button{
+        background-color: brown;
+        color: blue;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+    }

@@ -1,0 +1,24 @@
+
+            /*style.css(solution)*/
+    .gallery{
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+        gap: 1.5rem;
+    }
+
+    .card{
+        display: block;
+        background-color: aquamarine;
+        border: 1px sandybrown;
+        border-radius: 8px;
+        padding: 2rem;
+        /* text-align: center;
+        font-weight: 600;
+        color: blueviolet; */
+    }
+    img{
+        width: 150px;
+        height: 150px;
+
+    }
