@@ -1,0 +1,339 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>LS Login</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background:
+                radial-gradient(
+                    circle at 75% 50%,
+                    #087fc0,
+                    #07517c 30%,
+                    #031d35 65%,
+                    #011326
+                );
+        }
+
+        .login-card {
+            width: 480px;
+            min-height: 610px;
+
+            padding: 45px 48px;
+
+            border: 3px solid rgba(50, 190, 255, 0.7);
+
+            border-radius: 65px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(40, 130, 180, 0.42),
+                    rgba(20, 110, 165, 0.30)
+                );
+
+            backdrop-filter: blur(15px);
+
+            box-shadow:
+                0 0 35px rgba(0, 180, 255, 0.25),
+                inset 0 0 35px rgba(255, 255, 255, 0.05);
+        }
+
+        /* LS LOGO */
+
+        .logo-circle {
+            width: 145px;
+            height: 145px;
+
+            margin: 0 auto 65px;
+
+            border: 4px solid #38c4ff;
+
+            border-radius: 50%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            box-shadow:
+                0 0 15px #12bfff,
+                inset 0 0 20px rgba(0, 180, 255, 0.15);
+        }
+
+        .logo {
+            font-size: 65px;
+
+            font-weight: bold;
+
+            font-style: italic;
+
+            letter-spacing: -10px;
+        }
+
+        .logo .l {
+            color: white;
+        }
+
+        .logo .s {
+            color: #19c5f4;
+        }
+
+        /* INPUT */
+
+        .input-box {
+            width: 100%;
+            height: 64px;
+
+            margin-bottom: 16px;
+
+            display: flex;
+            align-items: center;
+
+            background:
+                linear-gradient(
+                    90deg,
+                    #062f64,
+                    #0065a5
+                );
+        }
+
+        .icon {
+            width: 65px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 24px;
+        }
+
+        .input-box input {
+            flex: 1;
+
+            height: 100%;
+
+            border: none;
+            outline: none;
+
+            background: transparent;
+
+            color: white;
+
+            font-size: 18px;
+
+            padding-right: 15px;
+        }
+
+        .input-box input::placeholder {
+            color: #d7dce0;
+        }
+
+        /* OPTIONS */
+
+        .options {
+            display: flex;
+
+            justify-content: space-between;
+            align-items: center;
+
+            margin: 25px 4px 45px;
+
+            color: #d8dce0;
+
+            font-size: 15px;
+        }
+
+        .remember {
+            display: flex;
+            align-items: center;
+
+            gap: 10px;
+        }
+
+        .remember input {
+            width: 17px;
+            height: 17px;
+        }
+
+        .forgot {
+            color: #d6dadd;
+
+            font-style: italic;
+
+            text-decoration: none;
+        }
+
+        /* LOGIN BUTTON */
+
+        .login-btn {
+            width: 100%;
+            height: 64px;
+
+            border: 1px solid rgba(70, 190, 255, 0.5);
+
+            border-radius: 14px;
+
+            background:
+                linear-gradient(
+                    90deg,
+                    #06366d,
+                    #087fc3
+                );
+
+            color: white;
+
+            font-size: 18px;
+
+            font-weight: bold;
+
+            letter-spacing: 4px;
+
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            box-shadow:
+                0 0 20px rgba(0, 190, 255, 0.5);
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="login-card">
+
+
+        <!-- LS LOGO -->
+
+        <div class="logo-circle">
+
+            <div class="logo">
+
+                <span class="l">L</span>
+                <span class="s">S</span>
+
+            </div>
+
+        </div>
+
+
+        <!--
+            HTML5 FORM
+
+            YOUR LINK IS HERE:
+        -->
+
+        <form
+            action="file:///D:/EchoBrains/HTML/!DOCTYPE.html"
+            method="get"
+        >
+
+
+            <!-- USERNAME -->
+
+            <div class="input-box">
+
+                <div class="icon">
+                    👤
+                </div>
+
+                <input
+                    type="text"
+                    name="username"
+                    placeholder="Username"
+                    required
+                >
+
+            </div>
+
+
+            <!-- PASSWORD -->
+
+            <div class="input-box">
+
+                <div class="icon">
+                    🔒
+                </div>
+
+                <input
+                    type="password"
+                    name="password"
+                    placeholder="***********"
+                    required
+                >
+
+            </div>
+
+
+            <!-- OPTIONS -->
+
+            <div class="options">
+
+                <label class="remember">
+
+                    <input
+                        type="checkbox"
+                        name="remember"
+                    >
+
+                    <span>
+                        Remember me
+                    </span>
+
+                </label>
+
+
+                <a
+                    href="file:///D:/EchoBrains/HTML/!DOCTYPE.html"
+                    class="forgot"
+                >
+                    Forgot Password?
+                </a>
+
+            </div>
+
+
+            <!-- LOGIN -->
+
+            <button
+                type="submit"
+                class="login-btn"
+            >
+                LOGIN
+            </button>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
+```

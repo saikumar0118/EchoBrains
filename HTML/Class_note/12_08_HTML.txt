@@ -1,0 +1,27 @@
+HTML5
+
+semantic tags:
+
+the tags which describe about the contents  what it holds
+
+eg:
+
+<header> header part of a page - top of the page (logo, company name, login ect)
+<footers> footer part - bottom of the page (address, contact info,sm icons)
+<section> individual part of information
+<article> detail about an section
+<aside> not the important content
+<main> main contents of a page
+<nav> contains all menu items
+
+2.media tags - video audio files
+3.SVG - vecter graphics,animation
+4.form controls - date/time, calender, file , foulder ect
+
+13_08_26
+<! the <form>Element>
+    <!the form element is the container that collect and sumbmit user input.>
+<form action="URL" method="post">
+   <!-- form controls-->
+   <button type="submit">Registar</button>
+</form>

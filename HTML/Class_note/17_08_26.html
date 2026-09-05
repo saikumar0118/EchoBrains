@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title> Interns Contact Details Form </title>
+</head>
+<body>
+    <h1 style="text-align: center;">Interns Contact Details Form</h1>
+    <form url="#" method="post" >
+        <table border="1" >
+            <tr>
+                <td>
+                    <label for="name">Intern Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </td>
+                <td> 
+                    <label for="intern_id">Intern ID</label>
+                    <input type="text" name="intern_id" id="intern_id" placeholder="Enter your ID" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Gmail" required>
+                </td>
+                <td>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" title="Enter a 10-digit phone number" placeholder="Enter phone number"  required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" placeholder="Enter phone Address" required></textarea>
+                </td>
+                <td>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter phone Gmail" required>
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" title="Enter a 10-digit phone number" placeholder="Enter phone number" required>
+                </td>
+
+                <td>
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" placeholder="Enter Address" required></textarea>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="resume">Upload Resume</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                </td>
+                <td>
+                    <!-- Drop down for Qualification -->
+                    <label for="qualification">Qualification</label>
+                    <select name="qualification" id="qualification" required>
+                    <option value="">Select Qualification</option>
+                    <option value="diploma">Diploma</option>
+                    <option value="bachelor">Bachelor's Degree</option>
+                    <option value="master">Master's Degree</option>
+                    <option value="phd">PhD</option>
+                </td>
+            </tr>   
+            </select>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
